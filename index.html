@@ -1,22 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HAMON Samuel</title>
+    <link rel="shortcut icon" href="IMG/logo.jpg" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/script.js"></script>
 </head>
+
 <body>
-    <h1>COURS GITHUB</h1>
-    <h2>Version 2</h2>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Nulla natus voluptatibus consequatur repellat incidunt omnis sed modi temporibus amet,
-        possimus velit maxime tenetur aliquid deserunt pariatur, unde dignissimos doloribus illo!</p>
+    <header>
+        <table>
+            <tr>
+                <td class="profil">
+                    <img src="IMG/HAMON_SAMUEL.PNG" alt="HAMON Samuel" width="90" height="100">
+                </td>
+                <td class="profil">
+                    <h1>| HAMON Samuel</h1>
+                </td>
+            </tr>
+        </table>
+        <p>
+            <b>Étudiant motivé de 21 ans dans le domaine du développement informatique, je suis actuellement à la
+                recherche d'une alternance afin de poursuivre mes études.</b>
+        </p>
+    </header>
+    <main>
+        <h2>CV</h2>
+        <div class="boxInfos">
+            <h3>Formations</h3>
+            <div>
+                <h4><u>2019 - 2021</u> : Brevet de Technicien Supérieur (BTS) - Services Informatiques aux
+                    Organisations
+                    (SIO) (BAC + 2)</h4>
+                <p><u>Campus La Châtaigneraie Lycée, CFA et Centre de Formation Continue (76240 Le
+                        Mesnil-Esnard)</u>
+                </p>
+                <ul>
+                    <li>Option B solutions logicielles et applications métiers (SLAM)</li>
+                    <li>Enseignement Facultatif : Mathématiques approfondies</li>
+                    <li>Examen : 16,97/20 de moyenne</li>
+                </ul>
+            </div>
+            <div>
+                <h4><u>2017 - 2018</u> : Baccalauréat sciences et technologies du management et de la gestion</h4>
+                <p><u>Lycée Edmond Perrier (19000 Tulle)</u></p>
+                <ul>
+                    <li>Enseignement spécifique ressources humaines et communication</li>
+                    <li>Examen : mention bien</li>
+                </ul>
+            </div>
+        </div>
+        <div class="boxInfos">
+            <h3>Compétences</h3>
+            <table id="TInformatique">
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            <u>Informatique</u>
+                        </th>
+                    </tr>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-        Accusamus at cupiditate atque maxime nihil quod animi accusantium 
-        dolorem sapiente minima et quidem temporibus totam earum praesentium a recusandae reprehenderit,
-        dicta necessitatibus facilis ad natus unde ipsam. Voluptate possimus libero quaerat?</p>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width=50%>
+                            <p>
+                            <h5>Programmation</h5>
+                            <ul>
+                                <li>C# (IDE : Visual Studio)</li>
+                                <li>Python</li>
+                                <li>Front-End : HTML | CSS | Javascipt</li>
+                                <li>Back-End : PHP | Framework PHP : Symfony | Transact-SQL</li>
+                                <li>POO : Programmation Orientée Objet</li>
+                                <li>MVC : Modèle-vue-contrôleur</li>
+                            </ul>
+                            <h5>SGBDR : Système de Gestion de Base de Données Relationnelles</h5>
+                            <ul>
+                                <li>MySQL (pour le web (php))</li>
+                                <li>Microsoft SQL Server (pour les applications Microsoft .NET (C#, Visual Studio))</li>
+                            </ul>
+                            <h5>Analyse et conception</h5>
+                            <ul>
+                                <li>Merise</li>
+                                <li>UML (Unified Modeling Language)</li>
+                            </ul>
+                            </p>
+                        </td>
+                        <td width=50%>
+                            <p>
+                            <h5>CMS (Content Management System)</h5>
+                            <ul>
+                                <li>Wix</li>
+                                <li>Wordpress</li>
+                            </ul>
+                            <h5>Veille technologique</h5>
+                            <ul>
+                                <li>Thème : Le Big Data et le NoSQL</li>
+                                <li>Outils de veille : Google Alerts, Twitter, Youtube, News Republic, Scoop.it,
+                                    Inoreader</li>
+                                <li>Test de MongoDB (SGBD)</li>
+                            </ul>
+                            <h5>Autre outils</h5>
+                            <ul>
+                                <li>MindView</li>
+                                <li>Microsoft Office</li>
+                                <li>WinDesing</li>
+                                <li>Github</li>
+                            </ul>
+                            <h5>Gestion de projet</h5>
+                            <ul>
+                                <li>Méthode agile : Scrum</li>
+                            </ul>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <table id="TAutresCompetences">
+                <thead>
+                    <tr>
+                        <th>
+                            <u>Langues</u>
+                        </th>
+                        <th>
+                            <u>Savoir-être Professionnels</u>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width=50%>
+                            <p>
+                            <ul>
+                                <li>Anglais (B1)</li>
+                                <li>Espagnol (A1)</li>
+                            </ul>
+                            </p>
+                        </td>
+                        <td width=50%>
+                            <p>
+                                Capacité d’adaptation | Travail en équipe | Capacités de synthèse | Sens de
+                                l’organisation |
+                                Polyvalence | Rigueur | Prise de recul | Réactivité | Autonomie | Résolution de
+                                problèmes
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+        <div class="boxInfos">
+            <h3>Stage</h3>
+            <h4>4 janvier 2021 - 26 février 2021</h4>
+            <h5><u>PC PARTNERS NORMANDIE</u></h5>
+            <ul>
+                <li>Mission principale : Conception d'une plateforme de consultation de chiffres de comptage de
+                    personnes
+                    dans les offices de Tourisme en France</li>
+                <li>Utilisation de : MySQL | HTML | CSS | JavaScript | Ajax (Asynchronous JavaScript + XML) | API
+                    (application programming interface) : Mapbox API / adresse.data.gouv.fr | PHP</li>
+            </ul>
+        </div>
+        <div class="boxInfos">
+            <h3>Profil personnel</h3>
+            <table id="TProfil">
+                <thead>
+                    <tr>
+                        <th>Permis B</th>
+                        <th>Intérêts et loisirs</th>
+                        <th>CV (PDF)</th>
+                        <th>Portfolio (BTS SIO - E6)</th>
+                        <th>Diplôme BTS SIO et notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Permis B : ">En cours</td>
+                        <td data-label="Intérêts et loisirs : ">
+                            <ul>
+                                <li>Voyage : Guadeloupe (2 ans)</li>
+                                <li>Passe-temps : jeux vidéos, montage vidéo</li>
+                            </ul>
+                        </td>
+                        <td data-label="CV (PDF) : ">
+                            <a href="IMG/CV_HAMON_SAMUEL.pdf" target="_blank" class="button">CV</a>
+                        </td>
+                        <td data-label="Portfolio (BTS SIO - E6) : ">
+                            <a href="https://samuelhamon78.wixsite.com/portfolio" target="_blank" class="button">Lien
+                                Portfolio E6</a>
+                        </td>
+                        <td data-label="Diplôme BTS SIO et notes : ">
+                            <ul>
+                                <li><a href="IMG/DIPLOME_BTS_HAMON_SAMUEL.png" target="_blank" class="button">Diplôme
+                                        BTS SIO</a>
+                                </li>
+                                <li><a href="IMG/RELEVE_NOTES_BTS_HAMON_SAMUEL.png" target="_blank" class="button">Notes
+                                        BTS
+                                        SIO</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer id="footer">
+        <a href="#" class="button">Retour en haut ↑</a>
+        <p>
+            <b>HAMON Samuel</b> - Coordonnées : <br>
+            Adresse : <i>2 le Bisson - 50420 Domjean</i> | Téléphone : <i>06 44 73 03 04</i> | Mail : <i><a
+                    href="mailto:samuel.hamon78@gmail.com" class="mail">samuel.hamon78@gmail.com</a></i>
+        </p>
+    </footer>
 </body>
+
 </html>
