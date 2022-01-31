@@ -10,6 +10,16 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+html, body, ul {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 header, footer, .profil {
     background-color: rgba(0, 0, 0, 0.75);
 }
@@ -48,8 +58,6 @@ h2 {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 table {
@@ -61,11 +69,19 @@ table {
 td {
     border-radius: 25px;
     background-color: black;
-    padding: 10px;
+    padding: 20px;
 }
 
 #TAutresCompetences, #TInformatique, #TProfil {
     border-spacing: 20px;
+}
+
+#TInformatique td {
+    padding-top: 0;
+}
+
+#TProfil td {
+    padding: 10px;
 }
 
 .button {
