@@ -64,24 +64,25 @@ table {
     margin: auto;
     padding: auto;
     text-align: center;
+    border-spacing: 20px;
 }
 
 td {
     border-radius: 25px;
     background-color: black;
-    padding: 20px;
-}
-
-#TAutresCompetences, #TInformatique, #TProfil {
-    border-spacing: 20px;
+    padding: 10px;
 }
 
 #TInformatique td {
     padding-top: 0;
 }
 
-#TProfil td {
-    padding: 10px;
+#TAutresCompetences td {
+    padding-top: 20px;
+}
+
+#TInformatique td, #TAutresCompetences td {
+    padding-bottom: 20px;
 }
 
 .button {
