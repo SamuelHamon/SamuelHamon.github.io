@@ -37,6 +37,11 @@ img, h2 {
     border-radius: 20px;
 }
 
+img {
+    width: 80px;
+    height: 100px;
+}
+
 h2 {
     background-color: black;
     width: fit-content;
