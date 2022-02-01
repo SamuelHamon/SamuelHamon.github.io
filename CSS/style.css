@@ -32,12 +32,12 @@ footer {
     margin-top: 25px;
 }
 
-img, h2 {
+.profil img, h2 {
     border: 4px solid white;
     border-radius: 20px;
 }
 
-img {
+.profil img {
     width: 85px;
     height: 100px;
 }
