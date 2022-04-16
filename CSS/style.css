@@ -122,7 +122,7 @@ td {
     transition: 0.3s;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 830px) {
     #TProfil thead {
         display: none;
     }
